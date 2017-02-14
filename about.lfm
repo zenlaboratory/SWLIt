@@ -1,0 +1,54 @@
+object AboutForm: TAboutForm
+  Left = 387
+  Height = 311
+  Top = 206
+  Width = 582
+  ActiveControl = AboutButton
+  Align = alClient
+  Caption = 'Acerca de SWLIt'
+  ClientHeight = 311
+  ClientWidth = 582
+  DefaultMonitor = dmMainForm
+  Position = poDesktopCenter
+  LCLVersion = '1.6.0.4'
+  object Memo1: TMemo
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = AboutButton
+    Left = 10
+    Height = 224
+    Top = 10
+    Width = 562
+    Align = alCustom
+    Alignment = taCenter
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Left = 10
+    BorderSpacing.Top = 10
+    BorderSpacing.Right = 10
+    BorderSpacing.Bottom = 20
+    Lines.Strings = (
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+    )
+    TabOrder = 0
+  end
+  object AboutButton: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 10
+    Height = 47
+    Top = 254
+    Width = 562
+    Anchors = [akLeft, akRight, akBottom]
+    BorderSpacing.Left = 10
+    BorderSpacing.Right = 10
+    BorderSpacing.Bottom = 10
+    Caption = 'Aceptar'
+    OnClick = AboutButtonClick
+    TabOrder = 1
+  end
+end

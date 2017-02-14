@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1448540517"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -Fi/home/zenlaboratory/Público/SWLIt/lib/i386-linux -Fl/opt/gnome/lib -Fu/home/zenlaboratory/Público/SWLIt/icons -Fu/home/zenlaboratory/Temporal -Fu/home/zenlaboratory/.lazarus/lib/TurboPowerIPro/units/i386-linux/gtk2 -Fu/home/zenlaboratory/.lazarus/lib/DateTimeCtrls/lib/i386-linux/gtk2 -Fu/home/zenlaboratory/.lazarus/lib/Printer4Lazarus/lib/i386-linux/gtk2 -Fu/home/zenlaboratory/.lazarus/lib/IDEIntf/units/i386-linux/gtk2 -Fu/home/zenlaboratory/.lazarus/lib/LazControls/lib/i386-linux/gtk2 -Fu/home/zenlaboratory/.lazarus/lib/cairocanvas_pkg/lib/i386-linux/gtk2 -Fu/home/zenlaboratory/.lazarus/lib/units/i386-linux/gtk2 -Fu/usr/lib/lazarus/lcl/units/i386-linux -Fu/usr/lib/lazarus/components/lazutils/lib/i386-linux -Fu/home/zenlaboratory/Temporal/csvdocument/lib/i386-linux -Fu/usr/lib/lazarus/packager/units/i386-linux -Fu/home/zenlaboratory/Público/SWLIt/ -FU/home/zenlaboratory/Público/SWLIt/lib/i386-linux/ -dLCL -dLCLgtk2 SWLIt.lpr"/>
+</CONFIG>
